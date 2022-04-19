@@ -1,6 +1,9 @@
 class TingoTango:
     def textoTingoTango(selfself,numero):
 
+        if (not type(numero) is int):
+            return "Error: Ingresa un entero"
+
         s = ""
 
         if (numero % 3 == 0):
